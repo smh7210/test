@@ -7,3 +7,41 @@
 html {
   font-family: Helvetica, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.btn {
+  border: 1px solid #414242;
+  border-radius: 5px;
+  background-color: #414242;
+  color: #fff;
+  padding: 5px 50px;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #414242;
+}
+
+.btn-primary-hover {
+  border-color: #737475;
+  background-color: #737475;
+  color: #d8dad8;
+}
+
+.btn-secondary-hover {
+  background-color: #f4f6f8;
+  color: #414242;
+}
+
+.btn-inactive {
+  border-color: #d8dad8;
+  background-color: #d8dad8;
+  color: #737475;
+}
