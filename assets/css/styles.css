@@ -12,13 +12,18 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
 .bold-text {
   font-weight: bold;
 }
 
 .btn {
   border: 1px solid #414242;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #414242;
   color: #fff;
   padding: 5px 50px;
@@ -44,4 +49,83 @@ a {
   border-color: #d8dad8;
   background-color: #d8dad8;
   color: #737475;
+}
+
+.card {
+  padding: 30px;
+  border: 1px rgb(233, 230, 230) solid;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  gap: 20px;
+}
+
+.card__title {
+  font-size: 18px;
+  padding-block: 10px;
+}
+
+.admin-card__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image {
+  width: 150px;
+  height: 250px;
+}
+
+.card-buttons {
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.btn-card {
+  padding-block: 12px;
+  border-width: 2px;
+}
+
+.card__result {
+  width: 100%;
+}
+
+.result-bar {
+  height: 20px;
+  width: 50px;
+  background-color: #414242;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 1px;
+}
+
+.progress-bar {
+  border: 2px solid #d8dad8;
+  border-radius: 5px;
+}
+
+.result-number {
+  font-size: 30px;
+  font-weight: bold;
+  color: #414242;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 16px;
+  color: #737475;
+}
+
+.btn-card-secondary {
+  padding: 14px 30px;
 }
